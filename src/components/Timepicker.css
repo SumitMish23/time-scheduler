@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.main {
+  height: 50vh;
+  width: 50vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+label {
+  font-family: Roboto;
+}
+.heading {
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 400;
+  margin: 1rem 0rem;
+}
+.scheduler {
+  display: flex;
+  column-gap: 4rem;
+  text-align: initial;
+}
+input {
+  display: block;
+  width: 219.43px;
+  height: 35.07px;
+  padding: 0.25rem;
+  border: 1px solid #d4d6db;
+  border-radius: 4px;
+}
+.submit-button button {
+  width: 71px;
+  height: 34px;
+  margin-top: 0.5rem;
+  background: #1a73e8;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  border: none;
+  color: #fffcfc;
+}
+label::after {
+  margin-left: 0.25rem;
+  content: "*";
+  color: red;
+}
+.time-slots {
+  margin-top: 1rem;
+  width: 815px;
+  height: 36px;
+  background: #98f9ff;
+}
+.rectangles {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.slot-one,
+.slot-two,
+.slot-three {
+  width: 74px;
+  height: 100%;
+  line-height: 35px;
+  font-size: 13px;
+}
+.slot-one {
+  background: #c4c4c4;
+}
+.slot-two {
+  background: #17f455;
+}
+.slot-three {
+  margin-left: 2rem;
+  background: #c4c4c4;
+}
+.status {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.status p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #000000;
+}
+.busy-block {
+  width: 13px;
+  height: 10px;
+
+  background: #c4c4c4;
+}
+.free-block {
+  width: 13px;
+  height: 10px;
+
+  background: #1dee19;
+}
